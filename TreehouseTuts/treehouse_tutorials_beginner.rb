@@ -57,3 +57,21 @@ puts string
 #.downcase will lowercase the variable
 # can assign methods to new variables
 # The ! at the end of the method generally means that the variable has been changed
+
+# when working with intergers .class will tell you what the variable class is
+# a = 1.1
+# a.class returns float
+# in the irb a doube * "**" is used for finding the exponent
+# as is in JS, a modulus is denoted by %
+
+
+# Working with numbers and string inside of a ruby program. Variables and string interpolation.
+name = "jake"
+string = "my name is #{name}"
+puts string
+
+year = 2014
+puts "the year is #{year}"
+
+future = 9
+puts "In #{future} years, the year will be #{year + future}"
