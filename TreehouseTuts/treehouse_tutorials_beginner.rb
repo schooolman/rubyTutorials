@@ -52,3 +52,8 @@ puts string
 name = "Jake"
 string = "Hello\n\tMy name is #{name}\n\tWorkspaces is fun!"
 puts string
+
+#in commandline name.upcase -> Uppercase the variable
+#.downcase will lowercase the variable
+# can assign methods to new variables
+# The ! at the end of the method generally means that the variable has been changed
