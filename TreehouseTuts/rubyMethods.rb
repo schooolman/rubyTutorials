@@ -16,3 +16,13 @@ puts add(299, 3049)
 def modulus(a, b)
   return "If you divide #{a} and #{b} you will get the remainer #{a%b}."
 end
+
+# Just some for fun function works
+# a function that will get the name of the user and respond with the name of the variable.
+
+testVar = "Jake"
+
+def whatsMyName(name)
+  name = gets
+  puts "hello #{name} my name is #{testVar}"
+end
