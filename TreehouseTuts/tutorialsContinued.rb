@@ -37,3 +37,28 @@ car2 < car1
 
 "jake".length < "treehouse".length
 => true
+
+# next tutorial vide
+
+car1 = 300
+
+car2 = 500
+
+car3 = 300
+
+car1 >= car3
+=> true
+
+car3 = 301
+
+car1 <= car3
+=> true
+
+car2 > car1 && car2 > car3
+=> true
+
+(car2 > car1) && (car2 > car3)
+=> true
+
+(car2 > car1) || (car2 > car3)
+=> true
